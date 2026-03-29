@@ -1,0 +1,59 @@
+/* 自定义补充样式（大部分样式由 Tailwind 处理） */
+.json-cell {
+    max-width: 400px;
+}
+
+.json-cell pre {
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    border-radius: 0.375rem;
+    border: 1px solid #e2e8f0;
+    margin: 0;
+}
+
+.json-cell pre code {
+    padding: 0.75rem;
+    background-color: #f8fafc !important;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+/* 隐藏滚动条但保留功能 (可选) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* 进场动画 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Toast 动画 */
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.toast-enter {
+    animation: slideInRight 0.3s ease-out forwards;
+}
+
+.toast-exit {
+    animation: fadeOut 0.3s ease-out forwards;
+}
