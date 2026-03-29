@@ -128,17 +128,12 @@ http://localhost:5276
 
 ### 界面预览
 
-你可以在仓库中放置截图后替换下方路径：
+<img width="2160" height="1238" alt="image" src="https://github.com/user-attachments/assets/58b0dec5-bada-4cf3-a367-c1661862561a" />
 
-- `docs/screenshots/dashboard-overview.png`
-- `docs/screenshots/summary-table.png`
-- `docs/screenshots/detail-table.png`
+<img width="1557" height="405" alt="image" src="https://github.com/user-attachments/assets/b077ce0d-82ae-48ed-8cdd-e4ada37ff41f" />
 
-```markdown
-![Dashboard](docs/screenshots/dashboard-overview.png)
-![Summary](docs/screenshots/summary-table.png)
-![Detail](docs/screenshots/detail-table.png)
-```
+<img width="2001" height="972" alt="image" src="https://github.com/user-attachments/assets/38c766f5-9fae-47bb-844b-185f8163b8b2" />
+
 
 ### Roadmap
 
